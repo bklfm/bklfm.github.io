@@ -663,7 +663,7 @@
       overflow:hidden;
     }
     .testimonial::before{
-      content: """;
+      content: "“";
       position:absolute;
       top: 8px;
       left: 14px;
@@ -762,6 +762,13 @@
 
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="announce" role="region" aria-label="Announcement">
+    <div class="announce-inner container">
+      <span class="announce-pill"><span class="dot" aria-hidden="true"></span> Annual tuition: <strong>$399/year</strong> (billed annually)</span>
+      <span class="announce-pill">14-day money-back guarantee</span>
+    </div>
+  </div>
 
   <header>
     <div class="nav" role="navigation" aria-label="Primary">
